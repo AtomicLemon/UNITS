@@ -139,18 +139,18 @@ public:
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1553954454;
+        genesis.nTime = 1553976174;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 682011;
+        genesis.nNonce = 516983;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000001494c97370e0197dce21306bcb8328c5c27b7c3f58d6cf0da8af2c7130c"));
-        assert(genesis.hashMerkleRoot == uint256("0x4eb0d3cf98d52c41d0adf78b626ee040cf64f74f5f868bacd7af11df0e98be37"));
+        assert(hashGenesisBlock == uint256("0x00000324b31d6f48bae92e8cdb8c5d1e5ae4592ec5678dc187c76f06c882868e"));
+        assert(genesis.hashMerkleRoot == uint256("0x9ee1f1acf59dbabb9eda6a00b559a63a34e08649d4b40eb4b267d4d9ba0a3588"));
 
         // Bitcoin Green addresses start with 'G'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 38);
