@@ -67,7 +67,7 @@ def initialize_datadir(dirname, n):
     datadir = os.path.join(dirname, "node"+str(n))
     if not os.path.isdir(datadir):
         os.makedirs(datadir)
-    with open(os.path.join(datadir, "bitcoingreen.conf"), 'w') as f:
+    with open(os.path.join(datadir, "units.conf"), 'w') as f:
         f.write("regtest=1\n");
         f.write("rpcuser=rt\n");
         f.write("rpcpassword=rt\n");
@@ -79,19 +79,19 @@ def initialize_chain(test_dir):
     """
     Create (or copy from cache) a 200-block-long chain and
     4 wallets.
-    bitcoingreend and bitcoingreen-cli must be in search path.
+    unitsd and units-cli must be in search path.
     """
 
     if not os.path.isdir(os.path.join("cache", "node0")):
         devnull = open("/dev/null", "w+")
-        # Create cache directories, run bitcoingreend:
+        # Create cache directories, run unitsd:
         for i in range(4):
             datadir=initialize_datadir("cache", i)
-            args = [ os.getenv("BITCOIND", "bitcoingreend"), "-keypool=1", "-datadir="+datadir, "-discover=0" ]
+            args = [ os.getenv("BITCOIND", "unitsd"), "-keypool=1", "-datadir="+datadir, "-discover=0" ]
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(p2p_port(0)))
             bitcoind_processes[i] = subprocess.Popen(args)
-            subprocess.check_call([ os.getenv("BITCOINCLI", "bitcoingreen-cli"), "-datadir="+datadir,
+            subprocess.check_call([ os.getenv("BITCOINCLI", "units-cli"), "-datadir="+datadir,
                                     "-rpcwait", "getblockcount"], stdout=devnull)
         devnull.close()
         rpcs = []
@@ -130,7 +130,7 @@ def initialize_chain(test_dir):
         from_dir = os.path.join("cache", "node"+str(i))
         to_dir = os.path.join(test_dir,  "node"+str(i))
         shutil.copytree(from_dir, to_dir)
-        initialize_datadir(test_dir, i) # Overwrite port/rpcport in bitcoingreen.conf
+        initialize_datadir(test_dir, i) # Overwrite port/rpcport in units.conf
 
 def initialize_chain_clean(test_dir, num_nodes):
     """
@@ -163,14 +163,14 @@ def _rpchost_to_args(rpchost):
 
 def start_node(i, dirname, extra_args=None, rpchost=None):
     """
-    Start a bitcoingreend and return RPC connection to it
+    Start a unitsd and return RPC connection to it
     """
     datadir = os.path.join(dirname, "node"+str(i))
-    args = [ os.getenv("BITCOIND", "bitcoingreend"), "-datadir="+datadir, "-keypool=1", "-discover=0", "-rest" ]
+    args = [ os.getenv("BITCOIND", "unitsd"), "-datadir="+datadir, "-keypool=1", "-discover=0", "-rest" ]
     if extra_args is not None: args.extend(extra_args)
     bitcoind_processes[i] = subprocess.Popen(args)
     devnull = open("/dev/null", "w+")
-    subprocess.check_call([ os.getenv("BITCOINCLI", "bitcoingreen-cli"), "-datadir="+datadir] +
+    subprocess.check_call([ os.getenv("BITCOINCLI", "units-cli"), "-datadir="+datadir] +
                           _rpchost_to_args(rpchost)  +
                           ["-rpcwait", "getblockcount"], stdout=devnull)
     devnull.close()
@@ -181,7 +181,7 @@ def start_node(i, dirname, extra_args=None, rpchost=None):
 
 def start_nodes(num_nodes, dirname, extra_args=None, rpchost=None):
     """
-    Start multiple bitcoingreends, return RPC connections to them
+    Start multiple unitsds, return RPC connections to them
     """
     if extra_args is None: extra_args = [ None for i in range(num_nodes) ]
     return [ start_node(i, dirname, extra_args[i], rpchost) for i in range(num_nodes) ]

@@ -522,8 +522,8 @@
         <translation>Wyślij monety do adresu UNITS</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i bitcoingreen:URI)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i units:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -578,8 +578,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Otwórz bitcoingreen: URI i żądanie zapłaty</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>Otwórz units: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1927,7 +1927,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

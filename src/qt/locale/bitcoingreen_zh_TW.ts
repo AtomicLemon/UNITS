@@ -590,8 +590,8 @@
         <translation>送出錢幣到 UNITS 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 bitcoingreen 位址)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 units 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>打開bitcoingreen: 位址或付款請求 </translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>打開units: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -949,6 +949,6 @@
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     </context>
 </TS>

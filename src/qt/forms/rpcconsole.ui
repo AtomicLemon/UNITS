@@ -423,7 +423,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../bitcoingreen.qrc">
+            <iconset resource="../units.qrc">
              <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
            </property>
            <property name="shortcut">
@@ -1387,7 +1387,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../bitcoingreen.qrc"/>
+  <include location="../units.qrc"/>
  </resources>
  <connections/>
 </ui>

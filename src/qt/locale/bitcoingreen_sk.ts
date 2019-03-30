@@ -602,8 +602,8 @@
         <translation>Odoslať mince na adresu UNITS</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a bitcoingreen: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a units: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -662,8 +662,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Otvorte bitcoingreen: URI alebo žiadosť o platbu</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>Otvorte units: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (bitcoingreen.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (units.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (units.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

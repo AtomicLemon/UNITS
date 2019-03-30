@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  bitcoingreend The Units core server.
+#  unitsd The Units core server.
 #
 #
 # chkconfig: 345 80 20
-# description: bitcoingreend
-# processname: bitcoingreend
+# description: unitsd
+# processname: unitsd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/bitcoingreend, see below
-if [ -f /etc/sysconfig/bitcoingreend ]; then
-        . /etc/sysconfig/bitcoingreend
+# you can override defaults in /etc/sysconfig/unitsd, see below
+if [ -f /etc/sysconfig/unitsd ]; then
+        . /etc/sysconfig/unitsd
 fi
 
 RETVAL=0
 
-prog=bitcoingreend
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/bitcoingreend
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/bitcoingreend}
+prog=unitsd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/unitsd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/unitsd}
 
-# bitcoingreend defaults to /usr/bin/bitcoingreend, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/bitcoingreend}
+# unitsd defaults to /usr/bin/unitsd, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/unitsd}
 
-# bitcoingreend opts default to -disablewallet, override with BITCOIND_OPTS
+# unitsd opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

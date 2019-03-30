@@ -598,8 +598,8 @@
         <translation>Verstuur munten naar een UNITS adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en bitcoingreen: URI's)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en units: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -658,8 +658,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Open een bitcoingreen: URI of betaalverzoek</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>Open een units: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -817,8 +817,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (bitcoingreen.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (units.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (units.conf).</translation>
     </message>
 </context>
 <context>
@@ -2583,7 +2583,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>

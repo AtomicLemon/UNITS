@@ -1,25 +1,25 @@
-# /etc/conf.d/bitcoingreend: config file for /etc/init.d/bitcoingreend
+# /etc/conf.d/unitsd: config file for /etc/init.d/unitsd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/bitcoingreen/bitcoingreen.conf"
+#BITCOIND_CONFIGFILE="/etc/units/units.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/bitcoingreend"
+#BITCOIND_PIDDIR="/var/run/unitsd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitcoingreend.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/unitsd.pid"
 
-# Where to write bitcoingreend data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/bitcoingreend"
+# Where to write unitsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/unitsd"
 
-# User and group to own bitcoingreend process
-#BITCOIND_USER="bitcoingreen"
-#BITCOIND_GROUP="bitcoingreen"
+# User and group to own unitsd process
+#BITCOIND_USER="units"
+#BITCOIND_GROUP="units"
 
-# Path to bitcoingreend executable
-#BITCOIND_BIN="/usr/bin/bitcoingreend"
+# Path to unitsd executable
+#BITCOIND_BIN="/usr/bin/unitsd"
 
-# Nice value to run bitcoingreend under
+# Nice value to run unitsd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

@@ -811,7 +811,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
+        <source>Request payments (generates QR codes and units: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -891,7 +891,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a bitcoingreen: URI or payment request</source>
+        <source>Open a units: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1112,7 +1112,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (units.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2645,7 +2645,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start bitcoingreen: click-to-pay handler</source>
+        <source>Cannot start units: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3969,7 +3969,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the bitcoingreen: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
+        <source>A message that was attached to the units: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4935,9 +4935,9 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
-        <location filename="../bitcoingreenstrings.cpp" line="+15"/>
+        <location filename="../unitsstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5153,10 +5153,10 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+4"/>
-        <source>To use bitcoingreend, or the -server option to bitcoingreen-qt, you must set an rpcpassword in the configuration file:
+        <source>To use unitsd, or the -server option to units-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoingreenrpc
+rpcuser=unitsrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

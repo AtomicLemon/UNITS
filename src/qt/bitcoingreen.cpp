@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoingreen-config.h"
+#include "config/units-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -94,7 +94,7 @@ static void InitMessage(const std::string& message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("bitcoingreen-core", psz).toStdString();
+    return QCoreApplication::translate("units-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -141,11 +141,11 @@ static void initTranslations(QTranslator& qtTranslatorBase, QTranslator& qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in bitcoingreen.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in units.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in bitcoingreen.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in units.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -254,7 +254,7 @@ private:
     void startThread();
 };
 
-#include "bitcoingreen.moc"
+#include "units.moc"
 
 BitcoinCore::BitcoinCore() : QObject()
 {
@@ -485,7 +485,7 @@ void BitcoinApplication::initializeResult(int retval)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // bitcoingreen: URIs or payment requests:
+        // units: URIs or payment requests:
         connect(paymentServer, SIGNAL(receivedPaymentRequest(SendCoinsRecipient)),
             window, SLOT(handlePaymentRequest(SendCoinsRecipient)));
         connect(window, SIGNAL(receivedURI(QString)),
@@ -537,8 +537,8 @@ int main(int argc, char* argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(bitcoingreen_locale);
-    Q_INIT_RESOURCE(bitcoingreen);
+    Q_INIT_RESOURCE(units_locale);
+    Q_INIT_RESOURCE(units);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100
@@ -597,7 +597,7 @@ int main(int argc, char* argv[])
     if (!Intro::pickDataDirectory())
         return 0;
 
-    /// 6. Determine availability of data directory and parse bitcoingreen.conf
+    /// 6. Determine availability of data directory and parse units.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false))) {
         QMessageBox::critical(0, QObject::tr("Units Core"),
@@ -654,7 +654,7 @@ int main(int argc, char* argv[])
         exit(0);
 
     // Start up the payment server early, too, so impatient users that click on
-    // bitcoingreen: links repeatedly have their payment requests routed to this process:
+    // units: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

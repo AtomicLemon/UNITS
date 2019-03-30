@@ -16,7 +16,7 @@ more scalable blockchain that is better suited for daily transactional use.
 
 Setup
 -----
-Unpack the files into a directory and run bitcoingreen-qt.exe.
+Unpack the files into a directory and run units-qt.exe.
 
 Units Core is the original Units client and it builds the backbone of the network.
 However, it downloads and stores the entire history of Units transactions;

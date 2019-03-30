@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between bitcoingreen-cli and bitcoingreend)
+ * CBaseChainParams defines the base parameters (shared between units-cli and unitsd)
  * of a given instance of the Units system.
  */
 class CBaseChainParams

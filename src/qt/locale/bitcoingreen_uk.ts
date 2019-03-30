@@ -357,6 +357,6 @@
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     </context>
 </TS>

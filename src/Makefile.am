@@ -72,15 +72,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bitcoingreend
+  bin_PROGRAMS += unitsd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += bitcoingreen-cli bitcoingreen-tx
+  bin_PROGRAMS += units-cli units-tx
 endif
 
 .PHONY: FORCE
-# bitcoingreen core #
+# units core #
 BITCOIN_CORE_H = \
   bignum.h \
   activemasternode.h \
@@ -183,7 +183,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between bitcoingreend and bitcoingreen-qt
+# server: shared between unitsd and units-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -228,7 +228,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between bitcoingreend and bitcoingreen-qt, but only linked
+# wallet: shared between unitsd and units-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -290,7 +290,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between bitcoingreend, and bitcoingreen-qt and non-server tools
+# common: shared between unitsd, and units-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -348,7 +348,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between bitcoingreen-cli and bitcoingreen-qt
+# cli: shared between units-cli and units-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -358,7 +358,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-bitcoingreend_LDADD = \
+unitsd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -369,26 +369,26 @@ bitcoingreend_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-bitcoingreend_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+unitsd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-bitcoingreend_LDADD += libbitcoin_wallet.a
+unitsd_LDADD += libbitcoin_wallet.a
 endif
-bitcoingreend_SOURCES = bitcoingreend.cpp
+unitsd_SOURCES = unitsd.cpp
 #
 
 if TARGET_WINDOWS
-bitcoingreend_SOURCES += bitcoingreend-res.rc
+unitsd_SOURCES += unitsd-res.rc
 endif
 
-bitcoingreend_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-bitcoingreend_CPPFLAGS = $(BITCOIN_INCLUDES)
-bitcoingreend_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+unitsd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+unitsd_CPPFLAGS = $(BITCOIN_INCLUDES)
+unitsd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# bitcoingreen-cli binary #
-bitcoingreen_cli_LDADD = \
+# units-cli binary #
+units_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -397,14 +397,14 @@ bitcoingreen_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-bitcoingreen_cli_SOURCES = \
-  bitcoingreen-cli.cpp
+units_cli_SOURCES = \
+  units-cli.cpp
 
-bitcoingreen_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+units_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# bitcoingreen-tx binary #
-bitcoingreen_tx_LDADD = \
+# units-tx binary #
+units_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -413,15 +413,15 @@ bitcoingreen_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-bitcoingreen_tx_SOURCES = bitcoingreen-tx.cpp
-bitcoingreen_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+units_tx_SOURCES = units-tx.cpp
+units_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-bitcoingreen_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+units_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitcoingreen_cli_SOURCES += bitcoingreen-cli-res.rc
+units_cli_SOURCES += units-cli-res.rc
 endif
-bitcoingreen_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+units_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

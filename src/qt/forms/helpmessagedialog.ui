@@ -28,7 +28,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../bitcoingreen.qrc">:/images/about</pixmap>
+      <pixmap resource="../units.qrc">:/images/about</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -100,7 +100,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../bitcoingreen.qrc"/>
+  <include location="../units.qrc"/>
  </resources>
  <connections>
   <connection>

@@ -602,8 +602,8 @@
         <translation>UNITS 주소로 전송하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>결제 요청 (QR 코드 및 bitcoingreen: URI 생성)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>결제 요청 (QR 코드 및 units: URI 생성)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -662,8 +662,8 @@
         <translation>마스터노드 구성 파일 열기</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>bitcoingreen: URI 또는 ​​결제 요청 열기</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>units: URI 또는 ​​결제 요청 열기</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -805,8 +805,8 @@ Address: %4
         <translation>텍스트라벨</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
-        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (bitcoingreen.conf)에 txindex = 1을 설정해야합니다.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (units.conf).</source>
+        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (units.conf)에 txindex = 1을 설정해야합니다.</translation>
     </message>
 </context>
 <context>
@@ -1809,8 +1809,8 @@ Please check the address and try again.</source>
         <translation>잘못된 결제 주소 %1</translation>
     </message>
     <message>
-        <source>Cannot start bitcoingreen: click-to-pay handler</source>
-        <translation>bitcoingreen을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <source>Cannot start units: click-to-pay handler</source>
+        <translation>units을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid UNITS address or malformed URI parameters.</source>
@@ -2793,8 +2793,8 @@ Please check the address and try again.</source>
         <translation>메세지:</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoingreen: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
-        <translation>참조용으로 트랜잭션과 함께 기록되는 bitcoingreen: URI에 첨부된 메세지입니다. 참고: 이 메세지는 Units 네트워크를 통해 전송되지 않습니다.</translation>
+        <source>A message that was attached to the units: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
+        <translation>참조용으로 트랜잭션과 함께 기록되는 units: URI에 첨부된 메세지입니다. 참고: 이 메세지는 Units 네트워크를 통해 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3523,7 +3523,7 @@ Please check the address and try again.</source>
     </message>
 </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx 메타 데이터 유지 예 : 계정 소유자 및 지불 요청 정보, 2 = tx 메타 데이터 삭제)</translation>
@@ -3705,10 +3705,10 @@ Please check the address and try again.</source>
         <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
-        <source>To use bitcoingreend, or the -server option to bitcoingreen-qt, you must set an rpcpassword in the configuration file:
+        <source>To use unitsd, or the -server option to units-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoingreenrpc
+rpcuser=unitsrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3716,10 +3716,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Units Alert" admin@foo.com
 </source>
-        <translation>bitcoingreend 또는 bitcoingreen-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
+        <translation>unitsd 또는 units-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
 %s
 다음 무작위 암호를 사용하는 것을 추천합니다:
-rpcuser=bitcoingreenrpc
+rpcuser=unitsrpc
 rpcpassword=%s
 (이 비밀번호는 기억할 필요가 없습니다)
 유저 이름과 비밀번호는 반드시 달라야 합니다.

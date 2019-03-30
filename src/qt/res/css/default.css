@@ -832,7 +832,7 @@ QLabel#labelOverviewHeaderLeft {
 
 QLabel#labelOverviewHeaderRight {
 	qproperty-alignment: 'AlignVCenter | AlignRight';
-	background-image: url(':/images/bitcoingreen_logo_horizontal');
+	background-image: url(':/images/units_logo_horizontal');
 	background-repeat: no-repeat;
 }
 

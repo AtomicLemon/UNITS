@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/bitcoingreen/.bitcoingreen" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/bitcoingreen/.bitcoingreen"
+if [ -d "/var/lib/units/.units" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/units/.units"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/bitcoingreend"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/unitsd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/bitcoingreen/bitcoingreen.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/bitcoingreend}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/bitcoingreend.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/units/units.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/unitsd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/unitsd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-bitcoingreen}
-BITCOIND_GROUP=${BITCOIND_GROUP:-bitcoingreen}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/bitcoingreend}
+BITCOIND_USER=${BITCOIND_USER:-units}
+BITCOIND_GROUP=${BITCOIND_GROUP:-units}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/unitsd}
 
 name="Units Core Daemon"
 description="Units crypto-currency p2p network daemon"
 
-command="/usr/bin/bitcoingreend"
+command="/usr/bin/unitsd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run bitcoingreend."
+		eerror "ERROR: You must set a secure rpcpassword to run unitsd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

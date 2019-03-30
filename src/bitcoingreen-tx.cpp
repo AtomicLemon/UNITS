@@ -48,10 +48,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Units Core bitcoingreen-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Units Core units-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  bitcoingreen-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded units transaction") + "\n" +
-                               "  bitcoingreen-tx [options] -create [commands]   " + _("Create hex-encoded units transaction") + "\n" +
+                               "  units-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded units transaction") + "\n" +
+                               "  units-tx [options] -create [commands]   " + _("Create hex-encoded units transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

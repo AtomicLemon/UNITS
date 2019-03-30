@@ -590,8 +590,8 @@
         <translation>Enviar moedas para um endereço UNITS</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e bitcoingreen: URIs)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e units: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -650,8 +650,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Abrir um bitcoingreen: URI ou requisição de pagamento</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>Abrir um units: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -798,8 +798,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (bitcoingreen.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (units.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (units.conf). </translation>
     </message>
 </context>
 <context>
@@ -3201,7 +3201,7 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
 </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>

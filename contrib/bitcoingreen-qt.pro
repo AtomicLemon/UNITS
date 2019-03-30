@@ -77,7 +77,7 @@ HEADERS += src/bignum.h \
            src/compressor.h \
            src/core_io.h \
            src/crypter.h \
-           src/bitcoingreen-config.h \
+           src/units-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/bignum.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/bitcoingreen-config.h \
+           src/config/units-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -331,7 +331,7 @@ HEADERS += src/bignum.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/bitcoingreen.moc \
+           src/qt/units.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -369,9 +369,9 @@ SOURCES += src/activemasternode.cpp \
            src/core_read.cpp \
            src/core_write.cpp \
            src/crypter.cpp \
-           src/bitcoingreen-cli.cpp \
-           src/bitcoingreen-tx.cpp \
-           src/bitcoingreen.cpp \
+           src/units-cli.cpp \
+           src/units-tx.cpp \
+           src/units.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -466,8 +466,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroldialog.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
-           src/qt/bitcoingreen.cpp \
-           src/qt/bitcoingreenstrings.cpp \
+           src/qt/units.cpp \
+           src/qt/unitsstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -545,7 +545,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_bitcoingreen.cpp \
+           src/test/test_units.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -636,21 +636,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/bitcoingreen.qrc src/qt/bitcoingreen_locale.qrc
+RESOURCES += src/qt/units.qrc src/qt/units_locale.qrc
 
-TRANSLATIONS += src/qt/locale/bitcoingreen_bg.ts \
-                src/qt/locale/bitcoingreen_de.ts \
-                src/qt/locale/bitcoingreen_en.ts \
-                src/qt/locale/bitcoingreen_es.ts \
-                src/qt/locale/bitcoingreen_fi.ts \
-                src/qt/locale/bitcoingreen_fr.ts \
-                src/qt/locale/bitcoingreen_it.ts \
-                src/qt/locale/bitcoingreen_ja.ts \
-                src/qt/locale/bitcoingreen_pl.ts \
-                src/qt/locale/bitcoingreen_pt.ts \
-                src/qt/locale/bitcoingreen_ru.ts \
-                src/qt/locale/bitcoingreen_sk.ts \
-                src/qt/locale/bitcoingreen_sv.ts \
-                src/qt/locale/bitcoingreen_vi.ts \
-                src/qt/locale/bitcoingreen_zh_CN.ts \
-                src/qt/locale/bitcoingreen_zh_TW.ts
+TRANSLATIONS += src/qt/locale/units_bg.ts \
+                src/qt/locale/units_de.ts \
+                src/qt/locale/units_en.ts \
+                src/qt/locale/units_es.ts \
+                src/qt/locale/units_fi.ts \
+                src/qt/locale/units_fr.ts \
+                src/qt/locale/units_it.ts \
+                src/qt/locale/units_ja.ts \
+                src/qt/locale/units_pl.ts \
+                src/qt/locale/units_pt.ts \
+                src/qt/locale/units_ru.ts \
+                src/qt/locale/units_sk.ts \
+                src/qt/locale/units_sv.ts \
+                src/qt/locale/units_vi.ts \
+                src/qt/locale/units_zh_CN.ts \
+                src/qt/locale/units_zh_TW.ts

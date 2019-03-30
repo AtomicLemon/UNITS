@@ -602,8 +602,8 @@
         <translation>发送数字货币到UNITS地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>请求支付（生成二维码和bitcoingreen：URIs）</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>请求支付（生成二维码和units：URIs）</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -662,8 +662,8 @@
         <translation>打开主节点配置文件</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>打开bitcoingreen：URI或付款请求</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>打开units：URI或付款请求</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1248,8 +1248,8 @@ Address: %4
         <translation>消息:</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoingreen: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
-        <translation>附加到bitcoingreen：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过Units网络发送。</translation>
+        <source>A message that was attached to the units: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
+        <translation>附加到units：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过Units网络发送。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1469,7 +1469,7 @@ Address: %4
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>在收到相关警报时执行命令，或者看到一个很长的分叉（cmd中的%s被消息替换）</translation>

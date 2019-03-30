@@ -328,32 +328,32 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* Units features */
-        {"bitcoingreen", "masternode", &masternode, true, true, false},
-        {"bitcoingreen", "listmasternodes", &listmasternodes, true, true, false},
-        {"bitcoingreen", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"bitcoingreen", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"bitcoingreen", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"bitcoingreen", "masternodedebug", &masternodedebug, true, true, false},
-        {"bitcoingreen", "startmasternode", &startmasternode, true, true, false},
-        {"bitcoingreen", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"bitcoingreen", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"bitcoingreen", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"bitcoingreen", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"bitcoingreen", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"bitcoingreen", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"bitcoingreen", "mnbudget", &mnbudget, true, true, false},
-        {"bitcoingreen", "preparebudget", &preparebudget, true, true, false},
-        {"bitcoingreen", "submitbudget", &submitbudget, true, true, false},
-        {"bitcoingreen", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"bitcoingreen", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"bitcoingreen", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"bitcoingreen", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"bitcoingreen", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"bitcoingreen", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"bitcoingreen", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"bitcoingreen", "checkbudgets", &checkbudgets, true, true, false},
-        {"bitcoingreen", "mnsync", &mnsync, true, true, false},
-        {"bitcoingreen", "spork", &spork, true, true, false},
+        {"units", "masternode", &masternode, true, true, false},
+        {"units", "listmasternodes", &listmasternodes, true, true, false},
+        {"units", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"units", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"units", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"units", "masternodedebug", &masternodedebug, true, true, false},
+        {"units", "startmasternode", &startmasternode, true, true, false},
+        {"units", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"units", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"units", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"units", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"units", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"units", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"units", "mnbudget", &mnbudget, true, true, false},
+        {"units", "preparebudget", &preparebudget, true, true, false},
+        {"units", "submitbudget", &submitbudget, true, true, false},
+        {"units", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"units", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"units", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"units", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"units", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"units", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"units", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"units", "checkbudgets", &checkbudgets, true, true, false},
+        {"units", "mnsync", &mnsync, true, true, false},
+        {"units", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -1070,7 +1070,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> bitcoingreen-cli " + methodname + " " + args + "\n";
+    return "> units-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

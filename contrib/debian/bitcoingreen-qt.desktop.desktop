@@ -2,10 +2,10 @@
 Encoding=UTF-8
 Name=Units
 Comment=Units P2P Cryptocurrency
-Exec=bitcoingreen-qt %u
+Exec=units-qt %u
 Terminal=false
 Type=Application
-Icon=bitcoingreen128
-MimeType=x-scheme-handler/bitcoingreen;
+Icon=units128
+MimeType=x-scheme-handler/units;
 Categories=Office;Finance;
-Name[en_US]=bitcoingreen-qt.desktop
+Name[en_US]=units-qt.desktop

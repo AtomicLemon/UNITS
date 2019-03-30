@@ -1,6 +1,6 @@
 [Protocol]
-exec=bitcoingreen-qt '%u'
-protocol=bitcoingreen
+exec=units-qt '%u'
+protocol=units
 input=none
 output=none
 helper=true

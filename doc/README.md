@@ -13,12 +13,12 @@ The following are some helpful notes on how to run Units on your native platform
 
 Unpack the files into a directory and run:
 
-- bin/32/bitcoingreen-qt (GUI, 32-bit) or bin/32/bitcoingreend (headless, 32-bit)
-- bin/64/bitcoingreen-qt (GUI, 64-bit) or bin/64/bitcoingreend (headless, 64-bit)
+- bin/32/units-qt (GUI, 32-bit) or bin/32/unitsd (headless, 32-bit)
+- bin/64/units-qt (GUI, 64-bit) or bin/64/unitsd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run bitcoingreen-qt.exe.
+Unpack the files into a directory, and then run units-qt.exe.
 
 ### OSX
 
@@ -38,7 +38,7 @@ The following are developer notes on how to build Units on your native platform.
 
 Development
 ---------------------
-The Units repo's [root README](https://github.com/bitcoingreen/bitcoingreen/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Units repo's [root README](https://github.com/units/units/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

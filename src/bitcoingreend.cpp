@@ -67,7 +67,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/bitcoingreen.conf are parsed in qt/bitcoingreen.cpp's main()
+    // If Qt is used, parameters/units.conf are parsed in qt/units.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -78,7 +78,7 @@ bool AppInit(int argc, char* argv[])
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  bitcoingreend [options]                     " + _("Start Units Core Daemon") + "\n";
+                        "  unitsd [options]                     " + _("Start Units Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -114,11 +114,11 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "bitcoingreen:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "units:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in bitcoingreend anymore. Use the bitcoingreen-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in unitsd anymore. Use the units-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
@@ -177,7 +177,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect bitcoingreen signal handlers
+    // Connect units signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

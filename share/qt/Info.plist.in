@@ -43,7 +43,7 @@
       <string>io.savebitcoin.UnitsPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>bitcoingreen</string>
+        <string>units</string>
       </array>
     </dict>
   </array>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-bitcoingreen-payment-request</string>
+        <string>application/x-units-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>bitcoingreenpaymentrequest</string>
+          <string>unitspaymentrequest</string>
         </array>
       </dict>
     </dict>

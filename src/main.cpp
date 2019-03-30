@@ -2051,7 +2051,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("bitcoingreen-scriptch");
+    RenameThread("units-scriptch");
     scriptcheckqueue.Thread();
 }
 

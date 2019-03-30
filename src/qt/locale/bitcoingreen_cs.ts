@@ -602,8 +602,8 @@
         <translation>Odeslat platbuna UNITS adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a bitcoingreen: URIs)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a units: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -662,8 +662,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Otevřít bitcoingreen: URI nebo platební žádost</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>Otevřít units: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (bitcoingreen.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (units.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (units.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -2239,7 +2239,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

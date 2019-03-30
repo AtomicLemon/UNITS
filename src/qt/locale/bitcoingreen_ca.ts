@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

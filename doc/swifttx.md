@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftTX
 
 This mechanism has been integrated into Bitcore-Node-Units which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/bitcoingreen/insight-api-bitcoingreen#web-socket-api](https://github.com/bitcoingreen/insight-api-bitcoingreen#web-socket-api)
-* API: [https://github.com/bitcoingreen/insight-api-bitcoingreen#swifttx-transactions](https://github.com/bitcoingreen/insight-api-bitcoingreen#swifttx-transactions)
+* WebSocket: [https://github.com/units/insight-api-units#web-socket-api](https://github.com/units/insight-api-units#web-socket-api)
+* API: [https://github.com/units/insight-api-units#swifttx-transactions](https://github.com/units/insight-api-units#swifttx-transactions)
 
 ####Command line option
 

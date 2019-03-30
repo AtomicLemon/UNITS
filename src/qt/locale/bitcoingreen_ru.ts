@@ -598,8 +598,8 @@
         <translation>Отправить монеты на UNITS адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и bitcoingreen: URI)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и units: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -658,8 +658,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Открыть bitcoingreen: URI или запрос платежа</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>Открыть units: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (bitcoingreen.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (units.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (units.conf).</translation>
     </message>
 </context>
 <context>
@@ -1801,8 +1801,8 @@ Please check the address and try again.</source>
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start bitcoingreen: click-to-pay handler</source>
-        <translation>Не удалось запустить bitcoingreen: обработчик click-to-pay </translation>
+        <source>Cannot start units: click-to-pay handler</source>
+        <translation>Не удалось запустить units: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid UNITS address or malformed URI parameters.</source>
@@ -2902,7 +2902,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>

@@ -3,17 +3,17 @@ Description=Units's distributed currency daemon
 After=network.target
 
 [Service]
-User=bitcoingreen
-Group=bitcoingreen
+User=units
+Group=units
 
 Type=forking
-PIDFile=/var/lib/bitcoingreend/bitcoingreend.pid
+PIDFile=/var/lib/unitsd/unitsd.pid
 
-ExecStart=/usr/bin/bitcoingreend -daemon -pid=/var/lib/bitcoingreend/bitcoingreend.pid \
-          -conf=/etc/bitcoingreen/bitcoingreen.conf -datadir=/var/lib/bitcoingreend
+ExecStart=/usr/bin/unitsd -daemon -pid=/var/lib/unitsd/unitsd.pid \
+          -conf=/etc/units/units.conf -datadir=/var/lib/unitsd
 
-ExecStop=-/usr/bin/bitcoingreen-cli -conf=/etc/bitcoingreen/bitcoingreen.conf \
-         -datadir=/var/lib/bitcoingreend stop
+ExecStop=-/usr/bin/units-cli -conf=/etc/units/units.conf \
+         -datadir=/var/lib/unitsd stop
 
 Restart=always
 PrivateTmp=true

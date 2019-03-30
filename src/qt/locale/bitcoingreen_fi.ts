@@ -595,8 +595,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lähetä kolikkoja UNITS osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja bitcoingreen: URIja)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja units: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -655,8 +655,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Avaa bitcoingreen: URI tai pyydä maksua</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>Avaa units: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -2384,7 +2384,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>

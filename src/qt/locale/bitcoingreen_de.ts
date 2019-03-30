@@ -606,8 +606,8 @@
         <translation>An eine UNITS-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und bitcoingreen: URIs)</translation>
+        <source>Request payments (generates QR codes and units: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und units: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -666,8 +666,8 @@
         <translation>Öffne Masternode Einstellungsdatei</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Öffne eine bitcoingreen: URI or Zahlungsanfrage</translation>
+        <source>Open a units: URI or payment request</source>
+        <translation>Öffne eine units: URI or Zahlungsanfrage</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -836,8 +836,8 @@ Adresse: %4</translation>
         <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "bitcoingreen.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (units.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "units.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -1852,8 +1852,8 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Zahlungsaufforderungadresse %1</translation>
     </message>
     <message>
-        <source>Cannot start bitcoingreen: click-to-pay handler</source>
-        <translation>Kann bitcoingreen nicht starten: click-to-pay Handler</translation>
+        <source>Cannot start units: click-to-pay handler</source>
+        <translation>Kann units nicht starten: click-to-pay Handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid UNITS address or malformed URI parameters.</source>
@@ -2847,8 +2847,8 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoingreen: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
-        <translation>Eine an die bitcoingreen-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Units-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the units: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
+        <translation>Eine an die units-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Units-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3588,7 +3588,7 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
     </message>
 </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>units-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behalte Tx-Meta-Daten z.B. Betrag, Besitzer und Zahlungsanforderungsinformationen, 2 = verwerfe Tx-Meta-Daten)</translation>

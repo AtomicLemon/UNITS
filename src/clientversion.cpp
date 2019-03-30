@@ -10,7 +10,7 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both bitcoingreend and bitcoingreen-qt, to make it harder for attackers to
+ * for both unitsd and units-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
 const std::string CLIENT_NAME("Units Core");

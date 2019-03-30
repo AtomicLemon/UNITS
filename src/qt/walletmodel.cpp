@@ -233,7 +233,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
                 return InvalidAmount;
             }
             total += subtotal;
-        } else { // User-entered bitcoingreen address / amount:
+        } else { // User-entered units address / amount:
             if (!validateAddress(rcp.address)) {
                 return InvalidAddress;
             }
@@ -318,7 +318,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(WalletModelTransaction& tran
                 std::string value;
                 rcp.paymentRequest.SerializeToString(&value);
                 newTx->vOrderForm.push_back(make_pair(key, value));
-            } else if (!rcp.message.isEmpty()) // Message from normal bitcoingreen:URI (bitcoingreen:XyZ...?message=example)
+            } else if (!rcp.message.isEmpty()) // Message from normal units:URI (units:XyZ...?message=example)
             {
                 newTx->vOrderForm.push_back(make_pair("Message", rcp.message.toStdString()));
             }
