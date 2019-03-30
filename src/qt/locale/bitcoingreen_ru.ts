@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши BITG-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your UNITS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши UNITS-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши BITG-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your UNITS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши UNITS-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Bitcoin Green will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BITGs from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Green сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши BITG от кражи с использованием вредоносного ПО.</translation>
+        <source>Units will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNITSs from being stolen by malware infecting your computer.</source>
+        <translation>Units сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши UNITS от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITG&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ BITG&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNITS&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ UNITS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a BITG Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите BITG адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a UNITS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите UNITS адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>Адрес BITG для подписи сообщения с помощью</translation>
+        <source>The UNITS address to sign the message with</source>
+        <translation>Адрес UNITS для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес BITG</translation>
+        <source>Sign the message to prove you own this UNITS address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес UNITS</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>Адрес BITG, которым подписано сообщение</translation>
+        <source>The UNITS address the message was signed with</source>
+        <translation>Адрес UNITS, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным BITG адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified UNITS address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным UNITS адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,12 +590,12 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
-        <source>Send coins to a BITG address</source>
-        <translation>Отправить монеты на BITG адрес</translation>
+        <source>Send coins to a UNITS address</source>
+        <translation>Отправить монеты на UNITS адрес</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
@@ -610,24 +610,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Green Core</source>
-        <translation>&amp;О Bitcoin Green Core</translation>
+        <source>&amp;About Units Core</source>
+        <translation>&amp;О Units Core</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Green Core</source>
-        <translation>Показать информацию о Bitcoin Green Core</translation>
+        <source>Show information about Units Core</source>
+        <translation>Показать информацию о Units Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Green</source>
-        <translation>Изменение параметров конфигурации Bitcoin Green</translation>
+        <source>Modify configuration options for Units</source>
+        <translation>Изменение параметров конфигурации Units</translation>
     </message>
     <message>
-        <source>Sign messages with your BITG addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими BITG адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your UNITS addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими UNITS адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITG addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным BITG адресом </translation>
+        <source>Verify messages to ensure they were signed with specified UNITS addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным UNITS адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,12 +670,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Green Core help message to get a list with possible Bitcoin Green command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Bitcoin Green</translation>
+        <source>Show the Units Core help message to get a list with possible Units command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Units</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core client</source>
-        <translation>Клиент Bitcoin Green Core</translation>
+        <source>Units Core client</source>
+        <translation>Клиент Units Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1090,8 +1090,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BITG address.</source>
-        <translation>Введенный адрес "%1" не является BITG адресом.</translation>
+        <source>The entered address "%1" is not a valid UNITS address.</source>
+        <translation>Введенный адрес "%1" не является UNITS адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1136,16 +1136,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Bitcoin Green Core</source>
-        <translation>О Bitcoin Green Core</translation>
+        <source>About Units Core</source>
+        <translation>О Units Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1191,16 +1191,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Green Core.</source>
-        <translation>Добро пожаловать в Bitcoin Green Core.</translation>
+        <source>Welcome to Units Core.</source>
+        <translation>Добро пожаловать в Units Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Green Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Bitcoin Green Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Units Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Units Core.</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core will download and store a copy of the Bitcoin Green block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Green Core загрузит и сохранит копию цепочки блоков Bitcoin Green. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Units Core will download and store a copy of the Units block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Units Core загрузит и сохранит копию цепочки блоков Units. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1211,8 +1211,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1353,12 +1353,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITG addresses after it matures.
-To Add: enter percentage to give and BITG address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other UNITS addresses after it matures.
+To Add: enter percentage to give and UNITS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие BITG адреса.
-Для добавления: введите передаваемый процент и BITG адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие UNITS адреса.
+Для добавления: введите передаваемый процент и UNITS адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1531,8 +1531,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin Green client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Bitcoin Green через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the Units client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт Units через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Green after logging in to the system.</source>
-        <translation>Автоматически запускать Bitcoin Green после входа в систему.</translation>
+        <source>Automatically start Units after logging in to the system.</source>
+        <translation>Автоматически запускать Units после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Green on system login</source>
-        <translation>&amp;Запускать Bitcoin Green при входе в систему</translation>
+        <source>&amp;Start Units on system login</source>
+        <translation>&amp;Запускать Units при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1583,16 +1583,16 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Green.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Bitcoin Green.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Units.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Units.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin Green network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Bitcoin Green через SOCKS5 прокси.</translation>
+        <source>Connect to the Units network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети Units через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1738,8 +1738,8 @@ Please check the address and try again.</source>
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Green network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Bitcoin Green после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Units network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Units после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1805,8 +1805,8 @@ Please check the address and try again.</source>
         <translation>Не удалось запустить bitcoingreen: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid BITG address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный BITG адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid UNITS address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный UNITS адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1891,8 +1891,8 @@ Please check the address and try again.</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a BITG address (e.g. %1)</source>
-        <translation>Введите адрес BITG (например %1)</translation>
+        <source>Enter a UNITS address (e.g. %1)</source>
+        <translation>Введите адрес UNITS (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2025,8 +2025,8 @@ Please check the address and try again.</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Green debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки Bitcoin Green. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the Units debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки Units. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2186,8 +2186,8 @@ Please check the address and try again.</source>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Green RPC console.</source>
-        <translation>Добро пожаловать в окружение Bitcoin Green RPC.</translation>
+        <source>Welcome to the Units RPC console.</source>
+        <translation>Добро пожаловать в окружение Units RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2406,8 +2406,8 @@ Please check the address and try again.</source>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 BITG</source>
-        <translation>0 BITG</translation>
+        <source>0 UNITS</source>
+        <translation>0 UNITS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2486,8 +2486,8 @@ Please check the address and try again.</source>
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITG address</source>
-        <translation>Предупреждение: неправильный BITG адрес</translation>
+        <source>Warning: Invalid UNITS address</source>
+        <translation>Предупреждение: неправильный UNITS адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2540,8 +2540,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Green Core is shutting down...</source>
-        <translation>Bitcoin Green Core выключается...</translation>
+        <source>Units Core is shutting down...</source>
+        <translation>Units Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2551,8 +2551,8 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>Адрес BITG для подписи сообщения с помощью</translation>
+        <source>The UNITS address to sign the message with</source>
+        <translation>Адрес UNITS для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2575,16 +2575,16 @@ Please check the address and try again.</source>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес BITG</translation>
+        <source>Sign the message to prove you own this UNITS address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес UNITS</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>Адрес BITG, которым подписано сообщение</translation>
+        <source>The UNITS address the message was signed with</source>
+        <translation>Адрес UNITS, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным BITG адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified UNITS address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным UNITS адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2630,8 +2630,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2650,8 +2650,8 @@ Please check the address and try again.</source>
         <translation>Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Green Core developers</source>
-        <translation>Разработчики Bitcoin Green Core</translation>
+        <source>The Units Core developers</source>
+        <translation>Разработчики Units Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2940,8 +2940,8 @@ Please check the address and try again.</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Bitcoin Green Core Developers</source>
-        <translation>Copyright (C) 2017-%i Разработчики Bitcoin Green Core</translation>
+        <source>Copyright (C) 2017-%i The Units Core Developers</source>
+        <translation>Copyright (C) 2017-%i Разработчики Units Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

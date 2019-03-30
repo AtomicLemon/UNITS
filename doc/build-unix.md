@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build Bitcoin Green in Unix.
+Some notes on how to build Units in Unix.
 
 Note
 ---------------------
@@ -51,7 +51,7 @@ System requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
-memory available when compiling Bitcoin Green Core. With 512MB of memory or less
+memory available when compiling Units Core. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -84,7 +84,7 @@ Optional:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build BitcoinGreen-Qt, make sure that the required packages for Qt development
+If you want to build Units-Qt, make sure that the required packages for Qt development
 are installed. Qt 5 is necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 5 will be used.
 To build without GUI pass `--without-gui`.
@@ -149,7 +149,7 @@ cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 
-# Configure Bitcoin Green Core to use our own-built instance of BDB
+# Configure Units Core to use our own-built instance of BDB
 cd $BITCOINGREEN_ROOT
 ./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
 ```
@@ -167,7 +167,7 @@ If you need to build Boost yourself:
 
 Security
 --------
-To help make your Bitcoin Green installation more secure by making certain attacks impossible to
+To help make your Units installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 

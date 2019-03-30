@@ -105,7 +105,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// Bitcoin Green only features
+// Units only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -227,7 +227,7 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "bitcoingreen" is a composite category enabling all Bitcoin Green-related debug output
+            // "bitcoingreen" is a composite category enabling all Units-related debug output
             if (ptrCategory->count(string("bitcoingreen"))) {
                 ptrCategory->insert(string("swifttx"));
                 ptrCategory->insert(string("masternode"));
@@ -412,13 +412,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\BitcoinGreen
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\BitcoinGreen
-// Mac: ~/Library/Application Support/BitcoinGreen
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\Units
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\Units
+// Mac: ~/Library/Application Support/Units
 // Unix: ~/.bitcoingreen
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "BitcoinGreen";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Units";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -430,7 +430,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "BitcoinGreen";
+    return pathRet / "Units";
 #else
     // Unix
     return pathRet / ".bitcoingreen";

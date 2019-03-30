@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between bitcoingreen-cli and bitcoingreend)
- * of a given instance of the Bitcoin Green system.
+ * of a given instance of the Units system.
  */
 class CBaseChainParams
 {

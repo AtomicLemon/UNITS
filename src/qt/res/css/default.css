@@ -800,12 +800,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 	border:0;
 }
 
-/* About Bitcoin Green Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Bitcoin Green Contents */
+/* About Units Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Units Contents */
 	margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Bitcoin Green text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Units text */
 	margin-right:10px;
 }
 
@@ -900,7 +900,7 @@ QWidget .QFrame#frameBalances .QLabel#labelImmatureText, /* Immature Balance Lab
 QWidget .QFrame#frameBalances .QLabel#labelTotalText, /* Total Balance Label */
 QWidget .QFrame#frameBalances .QLabel#labelPendingText, /* Pending Balance Label */
 QWidget .QFrame#frameBalances .QLabel#labelBalanceText, /* Available Balance Label */
-QWidget .QFrame#frameBalances .QLabel#labelBalances { /* BITG Balances Header Label */
+QWidget .QFrame#frameBalances .QLabel#labelBalances { /* UNITS Balances Header Label */
 	qproperty-alignment: 'AlignVCenter | AlignLeft';
 	min-width: 160px;
 	color: #333333;
@@ -909,11 +909,11 @@ QWidget .QFrame#frameBalances .QLabel#labelBalances { /* BITG Balances Header La
 	font-size: 14px;
 }
 
-QWidget .QFrame#frameBalances .QLabel#labelBalances { /* BITG Balances Header Label */
+QWidget .QFrame#frameBalances .QLabel#labelBalances { /* UNITS Balances Header Label */
 	font-weight: bold;
 }
 
-QWidget .QFrame#frameBalances #lineBalances { /* BITG Balances Line separator */
+QWidget .QFrame#frameBalances #lineBalances { /* UNITS Balances Line separator */
 	background-color:#0f7f12;
 }
 

@@ -13,7 +13,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* Bitcoin Green GUI -- Size of icons in status bar */
+/* Units GUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -50,9 +50,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "BitcoinGreen"
+#define QAPP_ORG_NAME "Units"
 #define QAPP_ORG_DOMAIN "savebitcoin.io"
-#define QAPP_APP_NAME_DEFAULT "BitcoinGreen-Qt"
-#define QAPP_APP_NAME_TESTNET "BitcoinGreen-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Units-Qt"
+#define QAPP_APP_NAME_TESTNET "Units-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

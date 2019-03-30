@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Bitcoin Green server.");
+            "\nStop Units server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Bitcoin Green server stopping";
+    return "Units server stopping";
 }
 
 
@@ -327,7 +327,7 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Bitcoin Green features */
+        /* Units features */
         {"bitcoingreen", "masternode", &masternode, true, true, false},
         {"bitcoingreen", "listmasternodes", &listmasternodes, true, true, false},
         {"bitcoingreen", "getmasternodecount", &getmasternodecount, true, true, false},

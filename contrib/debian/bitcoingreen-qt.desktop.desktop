@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=BitcoinGreen
-Comment=BitcoinGreen P2P Cryptocurrency
+Name=Units
+Comment=Units P2P Cryptocurrency
 Exec=bitcoingreen-qt %u
 Terminal=false
 Type=Application

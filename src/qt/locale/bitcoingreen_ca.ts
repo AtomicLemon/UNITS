@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITG&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BITGS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNITS&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES UNITSS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Bitcoin Green</source>
-        <translation>Bitcoin Green</translation>
+        <source>Units</source>
+        <translation>Units</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Green</source>
-        <translation>&amp;Sobre Bitcoin Green</translation>
+        <source>&amp;About Units</source>
+        <translation>&amp;Sobre Units</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
-        <source>About Bitcoin Green Core</source>
-        <translation>Sobre Bitcoin Green Core</translation>
+        <source>About Units Core</source>
+        <translation>Sobre Units Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Green Core.</source>
-        <translation>Benvingut a Bitcoin Green Core.</translation>
+        <source>Welcome to Units Core.</source>
+        <translation>Benvingut a Units Core.</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
         <source>Version %1</source>

@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 0)
 define(_CLIENT_VERSION_BUILD, 1)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2017)
-AC_INIT([Bitcoin Green Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.savebitcoin.io],[bitcoingreen])
+AC_INIT([Units Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.savebitcoin.io],[bitcoingreen])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoingreen-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -19,9 +19,9 @@ BITCOIN_TX_NAME=bitcoingreen-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef BITG_CONFIG_H])
-AH_TOP([#define BITG_CONFIG_H])
-AH_BOTTOM([#endif //BITG_CONFIG_H])
+AH_TOP([#ifndef UNITS_CONFIG_H])
+AH_TOP([#define UNITS_CONFIG_H])
+AH_BOTTOM([#endif //UNITS_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME

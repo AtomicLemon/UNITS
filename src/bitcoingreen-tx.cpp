@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2017 The Bitcoin Green developers
+// Copyright (c) 2017-2017 The Units developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -48,7 +48,7 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Bitcoin Green Core bitcoingreen-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Units Core bitcoingreen-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
                                "  bitcoingreen-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded bitcoin green transaction") + "\n" +
                                "  bitcoingreen-tx [options] -create [commands]   " + _("Create hex-encoded bitcoin green transaction") + "\n" +

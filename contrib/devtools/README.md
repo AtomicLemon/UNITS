@@ -36,7 +36,7 @@ couldn't mess with the sources.
 
 Setup
 ---------
-Configuring the github-merge tool for the Bitcoin Green repository is done in the following way:
+Configuring the github-merge tool for the Units repository is done in the following way:
 
     git config githubmerge.repository bitcoingreen/bitcoingreen
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)
@@ -45,7 +45,7 @@ Configuring the github-merge tool for the Bitcoin Green repository is done in th
 optimize-pngs.py
 ================
 
-A script to optimize png files in the Bitcoin Green
+A script to optimize png files in the Units
 repository (requires pngcrush).
 
 fix-copyright-headers.py

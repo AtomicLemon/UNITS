@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun BITG osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your UNITS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun UNITS osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun BITG osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your UNITS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun UNITS osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Bitcoin Green will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BITGs from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Green sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella BITGien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Units will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNITSs from being stolen by malware infecting your computer.</source>
+        <translation>Units sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella UNITSien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITG&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki BITGisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNITS&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki UNITSisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,8 +231,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a BITG Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä BITG osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a UNITS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä UNITS osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -240,8 +240,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>BITG osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The UNITS address to sign the message with</source>
+        <translation>UNITS osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -272,8 +272,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän BITG osoitteen</translation>
+        <source>Sign the message to prove you own this UNITS address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän UNITS osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -296,12 +296,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>BITG osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The UNITS address the message was signed with</source>
+        <translation>UNITS osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla BITG osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified UNITS address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla UNITS osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -587,12 +587,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Ydin</translation>
+        <source>Units Core</source>
+        <translation>Units Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a BITG address</source>
-        <translation>Lähetä kolikkoja BITG osoitteeseen</translation>
+        <source>Send coins to a UNITS address</source>
+        <translation>Lähetä kolikkoja UNITS osoitteeseen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
@@ -607,24 +607,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core &amp;ytimestä</translation>
+        <source>&amp;About Units Core</source>
+        <translation>Units Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Green Core</source>
-        <translation>Näytä tietoja Bitcoin Green Ytimestä</translation>
+        <source>Show information about Units Core</source>
+        <translation>Näytä tietoja Units Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Green</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Bitcoin Green:lle</translation>
+        <source>Modify configuration options for Units</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja Units:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your BITG addresses to prove you own them</source>
+        <source>Sign messages with your UNITS addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITG addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä BITG osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified UNITS addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä UNITS osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -667,12 +667,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Green Core help message to get a list with possible Bitcoin Green command-line options</source>
-        <translation>Näytä Bitcoin Green Ydin apuviesti saadaksesi lista mahdollisista Bitcoin Green komentolinja komennoista.</translation>
+        <source>Show the Units Core help message to get a list with possible Units command-line options</source>
+        <translation>Näytä Units Ydin apuviesti saadaksesi lista mahdollisista Units komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core client</source>
-        <translation>Bitcoin Green Ydin asiakasohjelma</translation>
+        <source>Units Core client</source>
+        <translation>Units Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -930,8 +930,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Ydin</translation>
+        <source>Units Core</source>
+        <translation>Units Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -949,12 +949,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Green Core.</source>
-        <translation>Tervetuloa Bitcoin Green Ytimeen.</translation>
+        <source>Welcome to Units Core.</source>
+        <translation>Tervetuloa Units Ytimeen.</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Ydin</translation>
+        <source>Units Core</source>
+        <translation>Units Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1150,12 +1150,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Green after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Bitcoin Green kun kirjaudut sisään.</translation>
+        <source>Automatically start Units after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä Units kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Green on system login</source>
-        <translation>&amp;Aloita Bitcoin Green järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start Units on system login</source>
+        <translation>&amp;Aloita Units järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1174,12 +1174,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Green.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Units.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin Green network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Bitcoin Green verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the Units network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Units verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1396,8 +1396,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Green debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Bitcoin Green debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the Units debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Units debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1508,8 +1508,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Green RPC console.</source>
-        <translation>Tervetuloa Bitcoin Green RPC konsoliin.</translation>
+        <source>Welcome to the Units RPC console.</source>
+        <translation>Tervetuloa Units RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Green network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Bitcoin Green verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Units network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Units verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Green network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Bitcoin Green verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Units network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Units verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1752,8 +1752,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 BITG</source>
-        <translation>0 BITG</translation>
+        <source>0 UNITS</source>
+        <translation>0 UNITS</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1836,8 +1836,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITG address</source>
-        <translation>Varoitus: Virheellinen BITG osoite</translation>
+        <source>Warning: Invalid UNITS address</source>
+        <translation>Varoitus: Virheellinen UNITS osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1875,8 +1875,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The BITG address to send the payment to</source>
-        <translation>BITG osoite johon maksu lähetetään</translation>
+        <source>The UNITS address to send the payment to</source>
+        <translation>UNITS osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1918,8 +1918,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Green Core is shutting down...</source>
-        <translation>Bitcoin Green core sammuu...</translation>
+        <source>Units Core is shutting down...</source>
+        <translation>Units core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1937,8 +1937,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>BITG osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The UNITS address to sign the message with</source>
+        <translation>UNITS osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1969,16 +1969,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän BITG osoitteen</translation>
+        <source>Sign the message to prove you own this UNITS address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän UNITS osoitteen</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>BITG osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The UNITS address the message was signed with</source>
+        <translation>UNITS osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla BITG osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified UNITS address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla UNITS osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2060,8 +2060,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Ydin</translation>
+        <source>Units Core</source>
+        <translation>Units Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2080,8 +2080,8 @@ Please check the address and try again.</source>
         <translation>PIVX core kehittäjät</translation>
     </message>
     <message>
-        <source>The Bitcoin Green Core developers</source>
-        <translation>Bitcoin Green core kehittäjät</translation>
+        <source>The Units Core developers</source>
+        <translation>Units core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2434,8 +2434,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Green Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Bitcoin Green Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Units Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Units Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

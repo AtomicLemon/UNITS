@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços BITG para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your UNITS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços UNITS para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços BITG para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your UNITS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços UNITS para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>Bitcoin Green will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BITGs from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Green vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas BITGs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>Units will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNITSs from being stolen by malware infecting your computer.</source>
+        <translation>Units vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas UNITSs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITG&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS BITG&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNITS&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS UNITS&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,7 +231,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a BITG Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a UNITS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -239,8 +239,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>O endereço BITG para assinar a mensagem</translation>
+        <source>The UNITS address to sign the message with</source>
+        <translation>O endereço UNITS para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço BITG</translation>
+        <source>Sign the message to prove you own this UNITS address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço UNITS</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>O endereço BITG que assinou a mensagem</translation>
+        <source>The UNITS address the message was signed with</source>
+        <translation>O endereço UNITS que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço BITG especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified UNITS address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço UNITS especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,12 +582,12 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
-        <source>Send coins to a BITG address</source>
-        <translation>Enviar moedas para um endereço BITG</translation>
+        <source>Send coins to a UNITS address</source>
+        <translation>Enviar moedas para um endereço UNITS</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
@@ -602,24 +602,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Green Core</source>
-        <translation>&amp;Sobre o Bitcoin Green Core</translation>
+        <source>&amp;About Units Core</source>
+        <translation>&amp;Sobre o Units Core</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Green Core</source>
-        <translation>Mostra informação sobre o Bitcoin Green Core</translation>
+        <source>Show information about Units Core</source>
+        <translation>Mostra informação sobre o Units Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Green</source>
-        <translation>Modificar opções de configuração para Bitcoin Green</translation>
+        <source>Modify configuration options for Units</source>
+        <translation>Modificar opções de configuração para Units</translation>
     </message>
     <message>
-        <source>Sign messages with your BITG addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços BITG para provar que você os detém</translation>
+        <source>Sign messages with your UNITS addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços UNITS para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITG addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços BITG especificados</translation>
+        <source>Verify messages to ensure they were signed with specified UNITS addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços UNITS especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,12 +662,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Green Core help message to get a list with possible Bitcoin Green command-line options</source>
-        <translation>Mostra a ajuda da Bitcoin Green Core para receber uma lista com possíveis opções de linha de comando Bitcoin Green</translation>
+        <source>Show the Units Core help message to get a list with possible Units command-line options</source>
+        <translation>Mostra a ajuda da Units Core para receber uma lista com possíveis opções de linha de comando Units</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core client</source>
-        <translation>Cliente Core Bitcoin Green</translation>
+        <source>Units Core client</source>
+        <translation>Cliente Core Units</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1079,8 +1079,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BITG address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de BITG</translation>
+        <source>The entered address "%1" is not a valid UNITS address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de UNITS</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1125,16 +1125,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Green Core</source>
-        <translation>Sobre o Bitcoin Green Core</translation>
+        <source>About Units Core</source>
+        <translation>Sobre o Units Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Green Core.</source>
-        <translation>Bem-vindo ao Bitcoin Green Core.</translation>
+        <source>Welcome to Units Core.</source>
+        <translation>Bem-vindo ao Units Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Green Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Bitcoin Green Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Units Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Units Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core will download and store a copy of the Bitcoin Green block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Green Core vai baixar e armazenar uma cópia da blockchain Bitcoin Green. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>Units Core will download and store a copy of the Units block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Units Core vai baixar e armazenar uma cópia da blockchain Units. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1188,8 +1188,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1471,8 +1471,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin Green client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Bitcoin Green no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the Units client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente Units no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1491,12 +1491,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Green after logging in to the system.</source>
-        <translation>Iniciar automaticamente Bitcoin Green depois de logar no sistema.</translation>
+        <source>Automatically start Units after logging in to the system.</source>
+        <translation>Iniciar automaticamente Units depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Green on system login</source>
-        <translation>&amp;Iniciar Bitcoin Green ao logar no sistema</translation>
+        <source>&amp;Start Units on system login</source>
+        <translation>&amp;Iniciar Units ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1511,12 +1511,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Green.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Bitcoin Green.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Units.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Units.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin Green network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede Bitcoin Green através de um proxy SOCKS5</translation>
+        <source>Connect to the Units network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede Units através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1646,8 +1646,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Green network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Bitcoin Green após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Units network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Units após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1739,8 +1739,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a BITG address (e.g. %1)</source>
-        <translation>Insira um endereço BITG (e.g. %1)</translation>
+        <source>Enter a UNITS address (e.g. %1)</source>
+        <translation>Insira um endereço UNITS (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1989,8 +1989,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Green RPC console.</source>
-        <translation>Bem-vindo ao console da Bitcoin Green RPC</translation>
+        <source>Welcome to the Units RPC console.</source>
+        <translation>Bem-vindo ao console da Units RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2241,8 +2241,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 BITG</source>
-        <translation>0 BITG</translation>
+        <source>0 UNITS</source>
+        <translation>0 UNITS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2281,12 +2281,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBITGs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBITGs in fee,&lt;br /&gt;while "at least" pays 1000 uBITGs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uBITGs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uBITGs em taxa,&lt;br /&gt; pagará pelo menos 1000 uBITGs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uUNITSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uUNITSs in fee,&lt;br /&gt;while "at least" pays 1000 uUNITSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uUNITSs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uUNITSs em taxa,&lt;br /&gt; pagará pelo menos 1000 uUNITSs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Bitcoin Green transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Bitcoin Green do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Units transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Units do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2369,8 +2369,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>usando</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITG address</source>
-        <translation>Aviso: endereço BITG inválido</translation>
+        <source>Warning: Invalid UNITS address</source>
+        <translation>Aviso: endereço UNITS inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2460,8 +2460,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The BITG address to send the payment to</source>
-        <translation>O endereço BITG para enviar o pagamento</translation>
+        <source>The UNITS address to send the payment to</source>
+        <translation>O endereço UNITS para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2523,8 +2523,8 @@ Favor verificar o endereço e tente novamente.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Green Core is shutting down...</source>
-        <translation>Bitcoin Green Core está desligando...</translation>
+        <source>Units Core is shutting down...</source>
+        <translation>Units Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2542,8 +2542,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>O endereço BITG para assinar a mensagem</translation>
+        <source>The UNITS address to sign the message with</source>
+        <translation>O endereço UNITS para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2574,16 +2574,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço BITG</translation>
+        <source>Sign the message to prove you own this UNITS address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço UNITS</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>O endereço BITG que assinou a mensagem</translation>
+        <source>The UNITS address the message was signed with</source>
+        <translation>O endereço UNITS que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço BITG especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified UNITS address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço UNITS especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,8 +2665,8 @@ Favor verificar o endereço e tente novamente.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Units Core</source>
+        <translation>Units Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2685,8 +2685,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Os desenvolvedores do PIVX Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Green Core developers</source>
-        <translation>Os desenvolvedores do Bitcoin Green Core</translation>
+        <source>The Units Core developers</source>
+        <translation>Os desenvolvedores do Units Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3157,8 +3157,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 BITG.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 BITG.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 UNITS.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 UNITS.</translation>
     </message>
 </context>
 <context>
@@ -3207,8 +3207,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Bitcoin Green specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas Bitcoin Green (Masternodes, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all Units specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas Units (Masternodes, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3223,12 +3223,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in BITG/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em BITG/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in UNITS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em UNITS/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BITG/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em BITG/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in UNITS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em UNITS/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3251,8 +3251,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BITG.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 BITG.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 UNITS.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 UNITS.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3267,8 +3267,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Green Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Bitcoin Green não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Units Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Units não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3347,8 +3347,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Bitcoin Green Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do Bitcoin Green Core</translation>
+        <source>Copyright (C) 2017-%i The Units Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do Units Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3399,8 +3399,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Green Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Bitcoin Green Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Units Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Units Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3435,8 +3435,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in BITG/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em BITG/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in UNITS/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em UNITS/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3847,8 +3847,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Green Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o Bitcoin Green Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Units Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o Units Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

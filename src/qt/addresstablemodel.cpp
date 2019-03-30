@@ -305,7 +305,7 @@ void AddressTableModel::updateEntry(const QString& address,
     const QString& purpose,
     int status)
 {
-    // Update address book model from Bitcoin Green core
+    // Update address book model from Units core
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 

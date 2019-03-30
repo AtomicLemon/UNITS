@@ -16,8 +16,8 @@ BITCOIND_USER=${BITCOIND_USER:-bitcoingreen}
 BITCOIND_GROUP=${BITCOIND_GROUP:-bitcoingreen}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/bitcoingreend}
 
-name="Bitcoin Green Core Daemon"
-description="Bitcoin Green crypto-currency p2p network daemon"
+name="Units Core Daemon"
+description="Units crypto-currency p2p network daemon"
 
 command="/usr/bin/bitcoingreend"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Bitcoin Green Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Units Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

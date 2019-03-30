@@ -13,7 +13,7 @@
  * for both bitcoingreend and bitcoingreen-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Bitcoin Green Core");
+const std::string CLIENT_NAME("Units Core");
 
 /**
  * Client version number

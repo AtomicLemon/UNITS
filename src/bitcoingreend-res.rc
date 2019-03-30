@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "BitcoinGreen"
-            VALUE "FileDescription",    "bitcoingreend (OSS daemon/client for Bitcoin Green)"
+            VALUE "CompanyName",        "Units"
+            VALUE "FileDescription",    "bitcoingreend (OSS daemon/client for Units)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "bitcoingreend"
             VALUE "LegalCopyright",     COPYRIGHT_STR

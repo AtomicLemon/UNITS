@@ -35,7 +35,7 @@ enum NumConnections {
     CONNECTIONS_ALL = (CONNECTIONS_IN | CONNECTIONS_OUT),
 };
 
-/** Model for Bitcoin Green network client. */
+/** Model for Units network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT

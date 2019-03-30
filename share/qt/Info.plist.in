@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Pivx Core developers, 2017-@COPYRIGHT_YEAR@ The Bitcoin Green Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Pivx Core developers, 2017-@COPYRIGHT_YEAR@ The Units Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>BitcoinGreen-Qt</string>
+  <string>Units-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.savebitcoin.BitcoinGreen-Qt</string>
+  <string>io.savebitcoin.Units-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.savebitcoin.BitcoinGreenPayment</string>
+      <string>io.savebitcoin.UnitsPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>bitcoingreen</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.savebitcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Bitcoin Green payment request</string>
+      <string>Units payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

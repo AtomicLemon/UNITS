@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your UNITS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your UNITS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -172,16 +172,16 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>Bitcoin Green will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BITGs from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Green vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>Units will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNITSs from being stolen by malware infecting your computer.</source>
+        <translation>Units vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITG&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE BITG&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNITS&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE UNITS&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>BIP 38 kryptografering</translation>
     </message>
     <message>
-        <source>Enter a BITG Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast den BITG adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
+        <source>Enter a UNITS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Indtast den UNITS adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>Den BITG adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The UNITS address to sign the message with</source>
+        <translation>Den UNITS adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne BITG adresse.</translation>
+        <source>Sign the message to prove you own this UNITS address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne UNITS adresse.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Indtast den krypterede BIP 38 nøgle. Indtast kodeordet i den midterste boks. Klik på dekryptér for at generere den private nøgle. Når nøglen er dekrypteret vil klip på "importér adresse" overføre den private nøgle til tegnebogen.</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne BITG adresse</translation>
+        <source>The UNITS address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne UNITS adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige BITG adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified UNITS address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige UNITS adresse.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,16 +594,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green kerne</translation>
+        <source>Units Core</source>
+        <translation>Units kerne</translation>
     </message>
     <message>
-        <source>Send coins to a BITG address</source>
-        <translation>Send mønter til en BITG adresse</translation>
+        <source>Send coins to a UNITS address</source>
+        <translation>Send mønter til en UNITS adresse</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og Bitcoin Green URL)</translation>
+        <translation>Anmod om betaling (genrerer QR kode og Units URL)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,24 +614,24 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Green Core</source>
-        <translation>&amp;Om Bitcoin Green kerne</translation>
+        <source>&amp;About Units Core</source>
+        <translation>&amp;Om Units kerne</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Green Core</source>
-        <translation>Vis information om Bitcoin Green kerne</translation>
+        <source>Show information about Units Core</source>
+        <translation>Vis information om Units kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Green</source>
-        <translation>Ret konfigurationsindstillinger for Bitcoin Green</translation>
+        <source>Modify configuration options for Units</source>
+        <translation>Ret konfigurationsindstillinger for Units</translation>
     </message>
     <message>
-        <source>Sign messages with your BITG addresses to prove you own them</source>
-        <translation>Underskriv beskeder med Deres BITG adresser for at bekræfte at De ejer dem.</translation>
+        <source>Sign messages with your UNITS addresses to prove you own them</source>
+        <translation>Underskriv beskeder med Deres UNITS adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITG addresses</source>
-        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne BITG adresse</translation>
+        <source>Verify messages to ensure they were signed with specified UNITS addresses</source>
+        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne UNITS adresse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,12 +674,12 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Green Core help message to get a list with possible Bitcoin Green command-line options</source>
-        <translation>Vis hjelpetekster fra Bitcoin Green kernen for at få en liste med mulige Bitcoin Green kommandolinie-startparametre</translation>
+        <source>Show the Units Core help message to get a list with possible Units command-line options</source>
+        <translation>Vis hjelpetekster fra Units kernen for at få en liste med mulige Units kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core client</source>
-        <translation>Bitcoin Green kerneklient</translation>
+        <source>Units Core client</source>
+        <translation>Units kerneklient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -979,8 +979,8 @@ Adresse: %4
         <translation>middelhøj</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBITG per input.</source>
-        <translation>kan variere +/- %1 uBITG pr. input</translation>
+        <source>Can vary +/- %1 uUNITS per input.</source>
+        <translation>kan variere +/- %1 uUNITS pr. input</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1094,8 +1094,8 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BITG address.</source>
-        <translation>Den indtastede adresse %1 er ikke en gyldig BITG adresse</translation>
+        <source>The entered address "%1" is not a valid UNITS address.</source>
+        <translation>Den indtastede adresse %1 er ikke en gyldig UNITS adresse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1140,16 +1140,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green kerne</translation>
+        <source>Units Core</source>
+        <translation>Units kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Green Core</source>
-        <translation>om Bitcoin Green kerne</translation>
+        <source>About Units Core</source>
+        <translation>om Units kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1195,16 +1195,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Green Core.</source>
-        <translation>Velkommen til Bitcoin Green kerne</translation>
+        <source>Welcome to Units Core.</source>
+        <translation>Velkommen til Units kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Green Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor Bitcoin Green kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where Units Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor Units kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core will download and store a copy of the Bitcoin Green block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Green kernen vil nu hente og gemme en kopi af Bitcoin Green blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>Units Core will download and store a copy of the Units block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Units kernen vil nu hente og gemme en kopi af Units blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1215,8 +1215,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green kerne</translation>
+        <source>Units Core</source>
+        <translation>Units kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1357,12 +1357,12 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITG addresses after it matures.
-To Add: enter percentage to give and BITG address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other UNITS addresses after it matures.
+To Add: enter percentage to give and UNITS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre BITG adressater når den er tilstrækkelig stor.
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den BITG adresse som skal modtage via Multisendsystemet.
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre UNITS adressater når den er tilstrækkelig stor.
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den UNITS adresse som skal modtage via Multisendsystemet.
 For at fjerne: Indtast adressen som skal slettes og klik på slet.
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
@@ -1535,8 +1535,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin Green client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn Bitcoin Green klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the Units client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn Units klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1555,12 +1555,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Green after logging in to the system.</source>
-        <translation>Start Bitcoin Green automatisk, når der logges på systemet</translation>
+        <source>Automatically start Units after logging in to the system.</source>
+        <translation>Start Units automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Green on system login</source>
-        <translation>&amp;start Bitcoin Green når der logges på systemet</translation>
+        <source>&amp;Start Units on system login</source>
+        <translation>&amp;start Units når der logges på systemet</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1587,16 +1587,16 @@ Kontroller adressen og prøv igen.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Green.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang Bitcoin Green klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Units.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang Units klienten startes</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin Green network through a SOCKS5 proxy.</source>
-        <translation>Tilslut Bitcoin Green netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the Units network through a SOCKS5 proxy.</source>
+        <translation>Tilslut Units netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1742,8 +1742,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Indskyder- eller masternodebelønning er stadig under behandling</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Green network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Bitcoin Green netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Units network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Units netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1813,7 +1813,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Kan ikke starte bitcoingreen "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid BITG address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid UNITS address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -1899,8 +1899,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a BITG address (e.g. %1)</source>
-        <translation>Indtast en BITG adresse (F.eks. %1)</translation>
+        <source>Enter a UNITS address (e.g. %1)</source>
+        <translation>Indtast en UNITS adresse (F.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2033,8 +2033,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Green debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Bitcoin Green debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the Units debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Units debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2201,8 +2201,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Green RPC console.</source>
-        <translation>Velkommen til Bitcoin Green RPC konsollet</translation>
+        <source>Welcome to the Units RPC console.</source>
+        <translation>Velkommen til Units RPC konsollet</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2272,12 +2272,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Valgfri opmærkning som tilknyttes den nye modtageradresse.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Green network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Bitcoin Green netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Units network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Units netværket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bitcoin Green network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Bitcoin Green netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Units network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Units netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2501,8 +2501,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 BITG</source>
-        <translation>0 BITG</translation>
+        <source>0 UNITS</source>
+        <translation>0 UNITS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2545,15 +2545,15 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Bekræftelsestid</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBITGs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBITGs in fee,&lt;br /&gt;while "at least" pays 1000 uBITGs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uBITGs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uBITG i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uBITGs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uUNITSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uUNITSs in fee,&lt;br /&gt;while "at least" pays 1000 uUNITSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uUNITSs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uUNITS i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uUNITSs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBITGs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBITGs in fee,&lt;br /&gt;while "total at least" pays 1000 uBITGs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uBITGs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uBITG i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uBITGs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uUNITSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uUNITSs in fee,&lt;br /&gt;while "total at least" pays 1000 uUNITSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uUNITSs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uUNITS i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uUNITSs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Bitcoin Green transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Units transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -2653,8 +2653,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Anvender</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITG address</source>
-        <translation>Advarsel! Ugyldig BITG adresse</translation>
+        <source>Warning: Invalid UNITS address</source>
+        <translation>Advarsel! Ugyldig UNITS adresse</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2752,8 +2752,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The BITG address to send the payment to</source>
-        <translation>BITG adressen, som betalingen skal sendes til</translation>
+        <source>The UNITS address to send the payment to</source>
+        <translation>UNITS adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2792,7 +2792,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoingreen: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Green network.</source>
+        <source>A message that was attached to the bitcoingreen: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Units network.</source>
         <translation>En besked, der var vedhæftet til bitcoingreen: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
@@ -2819,8 +2819,8 @@ Kontroller adressen og prøv igen.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Green Core is shutting down...</source>
-        <translation>Bitcoin Green kernen lukker ned</translation>
+        <source>Units Core is shutting down...</source>
+        <translation>Units kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2842,8 +2842,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>Den BITG adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The UNITS address to sign the message with</source>
+        <translation>Den UNITS adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2874,16 +2874,16 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne BITG adresse.</translation>
+        <source>Sign the message to prove you own this UNITS address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne UNITS adresse.</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne BITG adresse</translation>
+        <source>The UNITS address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne UNITS adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige BITG adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified UNITS address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige UNITS adresse.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2969,8 +2969,8 @@ Kontroller adressen og prøv igen.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green kerne</translation>
+        <source>Units Core</source>
+        <translation>Units kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2989,8 +2989,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>PIVX "core" udviklerne</translation>
     </message>
     <message>
-        <source>The Bitcoin Green Core developers</source>
-        <translation>Bitcoin Green "core" udviklerne</translation>
+        <source>The Units Core developers</source>
+        <translation>Units "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3477,8 +3477,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 BITG.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1 BITG.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 UNITS.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1 UNITS.</translation>
     </message>
 </context>
 <context>
@@ -3547,8 +3547,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Green Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. Bitcoin Green core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. Units Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. Units core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3567,8 +3567,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Slet alle tegnebogens transaktioner og genskab kun fra blokkæden ved at tilføje -rescan i forbindes med opstart.</translation>
     </message>
     <message>
-        <source>Disable all Bitcoin Green specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle Bitcoin Green funktioner fra (Masternoder, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all Units specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle Units funktioner fra (Masternoder, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3608,12 +3608,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in BITG/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in BITG/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in UNITS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in UNITS/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BITG/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in BITG/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in UNITS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in UNITS/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3713,7 +3713,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Bitcoin Green Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Units Alert" admin@foo.com
 </source>
         <translation>For at bruge bitcoingreend eller -server muligheden sammen med bitcoingreen-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
@@ -3724,16 +3724,16 @@ rpcpasswrd=%s
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!
 Hvis filen ikke eksisterer, opret den med sikkerhedsindstillingen - ejer kun læserettigheder tilladelsen.
 Det anbefales tillige at vælge alertnotify til for at blive orienteret om eventuelle problemer.
-For eksempel: alertnotify=Echo %% | mail - s "Bitcoin Green ALARM!" e-mail@administrator.dk
+For eksempel: alertnotify=Echo %% | mail - s "Units ALARM!" e-mail@administrator.dk
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Green Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. Bitcoin Green kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. Units Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. Units kører sandsynligvis allerede.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BITG.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 BITG.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 UNITS.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 UNITS.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3748,8 +3748,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Bitcoin Green ALARM!" e-mail@admin
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Green Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil Bitcoin Green core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Units Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil Units core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3892,8 +3892,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Bitcoin Green ALARM!" e-mail@admin
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Bitcoin Green Core Developers</source>
-        <translation>Copyright (C) 2017-%i The Bitcoin Green Core Developers</translation>
+        <source>Copyright (C) 2017-%i The Units Core Developers</source>
+        <translation>Copyright (C) 2017-%i The Units Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3964,8 +3964,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Bitcoin Green ALARM!" e-mail@admin
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Green Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af Bitcoin Green core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Units Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af Units core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4008,8 +4008,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Bitcoin Green ALARM!" e-mail@admin
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in BITG/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i BITG/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in UNITS/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i UNITS/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4068,8 +4068,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Bitcoin Green ALARM!" e-mail@admin
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Green Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. Bitcoin Green core lukker ned. </translation>
+        <source>Initialization sanity check failed. Units Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. Units core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4596,8 +4596,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Bitcoin Green ALARM!" e-mail@admin
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Green Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart Bitcoin Green core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart Units Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart Units core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

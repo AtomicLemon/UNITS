@@ -29,7 +29,7 @@ Check out the source code in the following directory hierarchy.
     git clone https://github.com/devrandom/gitian-builder.git
     git clone https://github.com/bitcoingreen/bitcoingreen.git
 
-### Bitcoin Green maintainers/release engineers, suggestion for writing release notes
+### Units maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -97,7 +97,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Bitcoin Green Core for Linux, Windows, and OS X:
+### Build and sign Units Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
     ./bin/gbuild --memory 3000 --commit bitcoingreen=v${VERSION} ../bitcoingreen/contrib/gitian-descriptors/gitian-linux.yml
@@ -262,7 +262,7 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/BitcoinGreen, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Units, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
