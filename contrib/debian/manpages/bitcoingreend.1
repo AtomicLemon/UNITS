@@ -177,7 +177,7 @@ Returns a list of the last ['count'] transactions for 'account' \- for all accou
     "message"       : message associated with transaction (only for send).
     "to"            : message-to associated with transaction (only for send).
 
-    *note: requires bitcoin green 1.0.0.1 or later.
+    *note: requires units 1.0.0.1 or later.
 .TP
 \fBmove <'fromaccount'> <'toaccount'> <'amount'> ['minconf=1'] ['comment']\fR
 Moves funds between accounts.
@@ -189,7 +189,7 @@ Sends amount from account's balance to 'bitgaddress'. This method will fail if t
 Sends amount from the server's available balance to 'bitgaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
 .TP
 \fBstop\fR
-Stops the bitcoin green server.
+Stops the units server.
 .TP
 \fBvalidateaddress 'bitgaddress'\fR
 Checks that 'bitgaddress' looks like a proper bitg address. Returns an object containing:
