@@ -1,7 +1,3 @@
-FileNotFoundError: [Errno 2] No such file or directory: './nodes_main.txt'
-atomic@lemon:~/genseeds$ nano main.txt
-atomic@lemon:~/genseeds$ nano main.txt
-atomic@lemon:~/genseeds$ python3 gen.py .
 #ifndef BITCOIN_CHAINPARAMSSEEDS_H
 #define BITCOIN_CHAINPARAMSSEEDS_H
 /**
