@@ -2,7 +2,8 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Units developers
+// Copyright (c) 2019 The UNITS developers
+// Copyright (c) 2019 AtomicLemon
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -28,6 +29,8 @@ struct SeedSpec6 {
 
 /**
  * Main network
+ *
+ * Are trying to make your own coin? Want to fork this project? Join this Discord server for help: http://bit.ly/2Ur5ysp
  */
 
 //! Convert the pnSeeds6 array into usable address objects.
@@ -88,6 +91,7 @@ public:
     {
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
+        
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
@@ -98,41 +102,30 @@ public:
         pchMessageStart[2] = 0x1e;
         pchMessageStart[3] = 0xea;
         vAlertPubKey = ParseHex("045ad6f1551c2367f81c0ecb4d45d088298442887645a314dfcba3039401872473b0200e69d9679a0d7cc307fb9aaaacafb0cebc18050ce7c995fa19c6accc8415");
-        nDefaultPort = 8114;
+        nDefaultPort = 8114; // The port to use for p2p
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        nSubsidyHalvingInterval = 1050000;
+        nSubsidyHalvingInterval = 1050000; // Block halvings
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 4;
-        nTargetTimespan = 1 * 60; // Units: 1 day
-        nTargetSpacing = 1 * 60;  // Units: 2 minutes
-        nMaturity = 10;
+        nTargetTimespan = 1 * 60; // Target difficulty update
+        nTargetSpacing = 1 * 60;  // Target block time
+        nMaturity = 10; // Maturity
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 168000000 * COIN;
+        nMaxMoneyOut = 168000000 * COIN; // The maximum amount of UNITS ever to be created
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 200;
-        nModifierUpdateBlock = 1; // we use the version 2 for UNITS
+        nLastPOWBlock = 200; // The last PoW (Proof of Work) block on the blockchian
+        nModifierUpdateBlock = 1;
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
          * be spent as it did not originally exist in the database.
          *
-         * python ~/genesis.py -a quark-hash -z "Even With Energy Surplus, Canada Unable to Meet Electricity Demands of Bitcoin Miners" -t 1516926684 -v 0 -p 04e5a8143f86ad8ac63791fbbdb8e0b91a8da88c8c693a95f6c2c13c063ea790f7960b8025a9047a7bc671d5cfe707a2dd2e13b86182e1064a0eea7bf863636363
-         * 04ffff001d01042642544320426c6f636b20353031353932202d20323031372d31322d32392031353a34333a3337
-         * algorithm: quark-hash
-         * merkle hash: 07cbcacfc822fba6bbeb05312258fa43b96a68fc310af8dfcec604591763f7cf
-         * pszTimestamp: Even With Energy Surplus, Canada Unable to Meet Electricity Demands of Bitcoin Miners
-         * pubkey: 04e5a8143f86ad8ac63791fbbdb8e0b91a8da88c8c693a95f6c2c13c063ea790f7960b8025a9047a7bc671d5cfe707a2dd2e13b86182e1064a0eea7bf863636363
-         * time: 1516926684
-         * bits: 0x1e0ffff0
-         * Searching for genesis hash..
-         * 16525.0 hash/s, estimate: 72.2 hgenesis hash found!
-         * nonce: 21256609
-         * genesis_hash: 000008467c3a9c587533dea06ad9380cded3ed32f9742a6c0c1aebc21bf2bc9b
-         */
+         * Join this Discord server for help: http://bit.ly/2Ur5ysp
+         **/
         const char* pszTimestamp = "You matter 31/03/2019 NZDT";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
@@ -168,7 +161,7 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = false;
+        fMiningRequiresPeers = true;
         fAllowMinDifficultyBlocks = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
@@ -180,7 +173,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "04cc17389379a0e323f53ea504d38cd71f43dc22f597805fed33a51b05ced1a3ae0db84089985f351b3737721736a82f58c8bd529f79c8ffe57e922bda792146ab";
         strMasternodePoolDummyAddress = "GSJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
-        nStartMasternodePayments = genesis.nTime + 86400; // 24 hours after genesis creation
+        nStartMasternodePayments = genesis.nTime + 86400; // 24 Hours after the genesis block creation
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
@@ -194,6 +187,7 @@ static CMainParams mainParams;
 
 /**
  * Testnet (v3)
+ * Same as up there, but testnet.
  */
 class CTestNetParams : public CMainParams
 {
