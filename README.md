@@ -11,15 +11,18 @@ Units (UNITS) is a sustainable cryptocurrency modeled after Satoshi Nakamoto’s
 More information over at our [Discord Server](https://discord.gg/65MR5g4)
 
 ### Coin Specs
-| Block Time                  | 60 Seconds      |
+
+| Property                    | Value            |
+|-----------------------------|------------------|
+| Block Time                  | 60 Seconds       |
 | Max Coin Supply (PoW Phase) | 500,000 UNITS    |
 | Max Coin Supply (PoS Phase) | 20,500,000 UNITS |
 | Premine                     | 500,000 UNITS    |
 
 ### Reward Distribution
 
-| **Block Height** | **Masternodes**  | **PoS**          | **Budget**      |
-|------------------|------------------|------------------|-----------------|
+| **Block Height** | **Masternodes**   | **PoS**           | **Budget**       |
+|------------------|-------------------|-------------------|------------------|
 | 201-5000         | 85% (0.85 UNITS)  | 10% (0.1 UNITS)   | 5% (0.05 UNITS)  |
 | 5001-25000       | 85% (25.5 UNITS)  | 10% (3 UNITS)     | 5% (1.5 UNITS)   |
 | 25001-100000     | 85% (17 UNITS)    | 10% (2 UNITS)     | 5% (1 UNITS)     |
