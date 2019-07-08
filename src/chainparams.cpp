@@ -27,12 +27,6 @@ struct SeedSpec6 {
 
 #include "chainparamsseeds.h"
 
-/**
- * Main network
- *
- * Are trying to make your own coin? Want to fork this project? Join this Discord server for help: http://bit.ly/2Ur5ysp
- */
-
 //! Convert the pnSeeds6 array into usable address objects.
 static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data, unsigned int count)
 {
@@ -101,6 +95,7 @@ public:
         pchMessageStart[1] = 0xf4;
         pchMessageStart[2] = 0x1e;
         pchMessageStart[3] = 0xea;
+
         vAlertPubKey = ParseHex("045ad6f1551c2367f81c0ecb4d45d088298442887645a314dfcba3039401872473b0200e69d9679a0d7cc307fb9aaaacafb0cebc18050ce7c995fa19c6accc8415");
         nDefaultPort = 8114; // The port to use for p2p
         bnProofOfWorkLimit = ~uint256(0) >> 1;
@@ -110,7 +105,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 4;
-        nTargetTimespan = 1 * 60; // Target difficulty update
+        nTargetTimespan = 2 * 60; // Target difficulty update
         nTargetSpacing = 1 * 60;  // Target block time
         nMaturity = 10; // Maturity
         nMasternodeCountDrift = 20;

@@ -2,7 +2,9 @@
 // Copyright (c) 2009-2015 The Bitcoin developers
 // Copyright (c) 2009-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2017 The Units developers
+// Copyright (c) 2017-2017 The BITG developers
+// Copyright (c) 2019 The Units developers
+// Copyright (c) 2019 AtomicLemon
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -113,7 +115,7 @@ UniValue CallRPC(const string& strMethod, const UniValue& params)
 
     const bool fConnected = d.connect(GetArg("-rpcconnect", "127.0.0.1"), GetArg("-rpcport", itostr(BaseParams().RPCPort())));
     if (!fConnected)
-        throw CConnectionFailed("couldn't connect to server");
+        throw CConnectionFailed("Could not connect to server. Is daemon running?");
 
     // Find credentials to use
     std::string strRPCUserColonPass;
