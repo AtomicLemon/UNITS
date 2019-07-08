@@ -201,11 +201,11 @@ public:
         pchMessageStart[2] = 0x32;
         pchMessageStart[3] = 0xbc;
         vAlertPubKey = ParseHex("041b2b4c86273359acac3522471911ed2b303eaab65e8a1de01c06e89f2eab1e55234a4b504f3ce20c6f661f007d0ca15623b4358d9855c7c8ba793a24fa315e22");
-        nDefaultPort = 19333;
+        nDefaultPort = 19334;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
-        nMinerThreads = 0;
+        nMinerThreads = 1;
         nTargetTimespan = 1 * 60; // Units: 1 day
         nTargetSpacing = 2 * 60;  // Units: 1 minute
         nLastPOWBlock = 200;
