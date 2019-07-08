@@ -79,7 +79,7 @@ For other Debian & Ubuntu (with ppa):
 
 Optional:
 
-	sudo apt-get install libminiupnpc-dev (see --with-miniupnpc and --enable-upnp-default)
+	sudo apt-get install libminiupnpc-dev # see --with-miniupnpc and --enable-upnp-default
 
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
