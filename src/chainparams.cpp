@@ -104,7 +104,7 @@ public:
         vAlertPubKey = ParseHex("045ad6f1551c2367f81c0ecb4d45d088298442887645a314dfcba3039401872473b0200e69d9679a0d7cc307fb9aaaacafb0cebc18050ce7c995fa19c6accc8415");
         nDefaultPort = 8114; // The port to use for p2p
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        nSubsidyHalvingInterval = 1050000; // Block halvings
+        nSubsidyHalvingInterval = 100000; // Block halvings
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -114,7 +114,7 @@ public:
         nTargetSpacing = 1 * 60;  // Target block time
         nMaturity = 10; // Maturity
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 168000000 * COIN; // The maximum amount of UNITS ever to be created
+        nMaxMoneyOut = 2000000000 * COIN; // The maximum amount of UNITS ever to be created
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200; // The last PoW (Proof of Work) block on the blockchian
@@ -145,16 +145,16 @@ public:
         assert(hashGenesisBlock == uint256("0x00000324b31d6f48bae92e8cdb8c5d1e5ae4592ec5678dc187c76f06c882868e"));
         assert(genesis.hashMerkleRoot == uint256("0x9ee1f1acf59dbabb9eda6a00b559a63a34e08649d4b40eb4b267d4d9ba0a3588"));
 
-        // Units addresses start with 'G'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 38);
-        // Units script addresses start with '3'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 6);
-        // Units private keys start with 'K'
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 46);
-        // Units BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Units BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        // Units addresses start with '9' or 'A'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 2);
+        // Units script addresses start with 'z'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 142);
+        // Units private keys start with 'P'
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 55);
+        // Units BIP32 pubkeys start with 'Tpub' (Bitcoin defaults)
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x65)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
+        // Units BIP32 prvkeys start with 'Tprv' (Bitcoin defaults)
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x65)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
         // Units BIP44 coin type is '222' (0x800000de)
         // BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0xde).convert_to_container<std::vector<unsigned char> >();
