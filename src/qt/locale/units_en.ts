@@ -2473,7 +2473,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+43"/>
-        <source>UNITS Balances</source>
+        <source>Your UNITS Balances:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

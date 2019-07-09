@@ -1749,7 +1749,7 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Formular</translation>
     </message>
     <message>
-        <source>UNITS Balances</source>
+        <source>Your UNITS Balances:</source>
         <translation>UNITS Bilanzen</translation>
     </message>
     <message>

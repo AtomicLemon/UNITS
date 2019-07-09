@@ -193,7 +193,7 @@
                        </font>
                       </property>
                       <property name="text">
-                       <string>UNITS Balances</string>
+                       <string>Your UNITS Balances:</string>
                       </property>
                      </widget>
                     </item>

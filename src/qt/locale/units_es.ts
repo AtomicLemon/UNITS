@@ -1738,7 +1738,7 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>UNITS Balances</source>
+        <source>Your UNITS Balances:</source>
         <translation>Balances UNITS</translation>
     </message>
     <message>
